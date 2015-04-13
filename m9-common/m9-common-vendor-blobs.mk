@@ -20,9 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/htc/m9-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/m9-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/htc/m9-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/m9-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/htc/m9-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
+    vendor/htc/m9-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/m9-common/proprietary/bin/radish:system/bin/radish \
     vendor/htc/m9-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/m9-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -161,8 +161,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/etc/tfa/voip_l.drc:system/etc/tfa/voip_l.drc \
     vendor/htc/m9-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/m9-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
-    vendor/htc/m9-common/proprietary/lib/hw/camera.msm8994.so:system/lib64/hw/lights.msm8994.so \
-    vendor/htc/m9-common/proprietary/lib/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
+    vendor/htc/m9-common/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
+    vendor/htc/m9-common/proprietary/lib/hw/sensors.msm8994.so:system/lib/hw/sensors.msm8994.so \
+    vendor/htc/m9-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/m9-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
+    vendor/htc/m9-common/proprietary/lib/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
+    vendor/htc/m9-common/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/m9-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
+    vendor/htc/m9-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/m9-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/m9-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/htc/m9-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/htc/m9-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/htc/m9-common/proprietary/lib64/hw/nfc_nci_pn547.default.so:system/lib64/hw/nfc_nci_pn547.default.so \
     vendor/htc/m9-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/m9-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
     vendor/htc/m9-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
