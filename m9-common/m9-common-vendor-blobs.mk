@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/m9-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/m9-common/proprietary/etc/otp.bin:system/etc/otp.bin \
-    vendor/htc/m9-common/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
