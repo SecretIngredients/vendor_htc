@@ -44,9 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/m9-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/m9-common/proprietary/etc/cir.img:system/etc/cir.img \
-    vendor/htc/m9-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/htc/m9-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/htc/m9-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/htc/m9-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd:system/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd \
     vendor/htc/m9-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/m9-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
