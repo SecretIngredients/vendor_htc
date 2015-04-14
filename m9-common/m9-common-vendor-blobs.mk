@@ -16,10 +16,18 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/htc/m9-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/htc/m9-common/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
     vendor/htc/m9-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/m9-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/htc/m9-common/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/htc/m9-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/m9-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/m9-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/htc/m9-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/htc/m9-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/htc/m9-common/proprietary/bin/perfd:system/bin/perfd \
+    vendor/htc/m9-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/m9-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/htc/m9-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/htc/m9-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -35,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/htc/m9-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/m9-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/htc/m9-common/proprietary/etc/cir.img:system/etc/cir.img \
+    vendor/htc/m9-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/htc/m9-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/htc/m9-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/htc/m9-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd:system/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd \
     vendor/htc/m9-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/m9-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
@@ -110,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/m9-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/m9-common/proprietary/etc/otp.bin:system/etc/otp.bin \
+    vendor/htc/m9-common/proprietary/etc/sec_config:system/etc/sec_config \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.drc:system/etc/tfa/Rec_Video.drc \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.eq:system/etc/tfa/Rec_Video.eq \
     vendor/htc/m9-common/proprietary/etc/tfa/Rec_Video.preset:system/etc/tfa/Rec_Video.preset \
@@ -170,11 +183,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/lib/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
     vendor/htc/m9-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/m9-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
+    vendor/htc/m9-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/htc/m9-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/m9-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/m9-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/htc/m9-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/htc/m9-common/proprietary/lib64/hw/nfc_nci_pn547.default.so:system/lib64/hw/nfc_nci_pn547.default.so \
     vendor/htc/m9-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
+    vendor/htc/m9-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+    vendor/htc/m9-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
+    vendor/htc/m9-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/htc/m9-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/htc/m9-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+    vendor/htc/m9-common/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
+    vendor/htc/m9-common/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/htc/m9-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
     vendor/htc/m9-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
     vendor/htc/m9-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
