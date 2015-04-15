@@ -184,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/m9-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/m9-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/htc/m9-common/proprietary/lib64/hw/nfc_nci_pn547.default.so:system/lib64/hw/nfc_nci_pn547.default.so \
     vendor/htc/m9-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/m9-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/htc/m9-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
