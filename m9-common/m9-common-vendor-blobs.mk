@@ -182,9 +182,19 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m9-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/htc/m9-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/m9-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/htc/m9-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_frame_overlay.so:system/lib/libmorpho_frame_overlay.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_image_transform.so:system/lib/libmorpho_image_transform.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
+    vendor/htc/m9-common/proprietary/lib/libmorpho_memory_allocator.so:system/libmorpho_memory_allocator.so \
     vendor/htc/m9-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/m9-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/htc/m9-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
+    vendor/htc/m9-common/proprietary/lib64/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
+    vendor/htc/m9-common/proprietary/lib64/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/m9-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
     vendor/htc/m9-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/htc/m9-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/m9-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
