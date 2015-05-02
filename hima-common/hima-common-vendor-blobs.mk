@@ -205,9 +205,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hima-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
-    vendor/htc/hima-common/proprietary/lib64/libHtcVteEngine.so:system/lib/libHtcVteEngine.so \
-    vendor/htc/hima-common/proprietary/lib64/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/hima-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib/libc2dcolorconvertgpu.so \
+    vendor/htc/hima-common/proprietary/lib64/libHtcVteEngine.so:system/lib64/libHtcVteEngine.so \
+    vendor/htc/hima-common/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
+    vendor/htc/hima-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib64/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hima-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
