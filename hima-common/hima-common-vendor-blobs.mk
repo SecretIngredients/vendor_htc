@@ -17,25 +17,38 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/htc/hima-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/htc/hima-common/proprietary/bin/cand:system/bin/cand \
     vendor/htc/hima-common/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
     vendor/htc/hima-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/hima-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/htc/hima-common/proprietary/bin/hrdump:system/bin/hrdump \
+    vendor/htc/hima-common/proprietary/bin/htc_dlmode:system/bin/htc_dlmode \
+    vendor/htc/hima-common/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
+    vendor/htc/hima-common/proprietary/bin/htc_fastbootd:system/bin/htc_fastbootd \
     vendor/htc/hima-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/hima-common/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/htc/hima-common/proprietary/bin/memlock:system/bin/memlock \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/hima-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/hima-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/hima-common/proprietary/bin/perfd:system/bin/perfd \
+    vendor/htc/hima-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
+    vendor/htc/hima-common/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/htc/hima-common/proprietary/bin/pnpmgr:system/bin/pnpmgr \
     vendor/htc/hima-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/hima-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/htc/hima-common/proprietary/bin/qseecom_security_test:system/bin/qseecom_security_test \
     vendor/htc/hima-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/hima-common/proprietary/bin/radish:system/bin/radish \
+    vendor/htc/hima-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/htc/hima-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/hima-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/htc/hima-common/proprietary/bin/shub_dbg:system/bin/shub_dbg \
     vendor/htc/hima-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/htc/hima-common/proprietary/bin/tpd_daemon:system/bin/tpd_daemon \
+    vendor/htc/hima-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     vendor/htc/hima-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
