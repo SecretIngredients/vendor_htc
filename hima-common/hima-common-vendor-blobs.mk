@@ -219,8 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/htc/hima-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hima-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
-    vendor/htc/hima-common/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
-    vendor/htc/hima-common/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
