@@ -193,6 +193,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/hima-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/htc/hima-common/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+    vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -203,12 +205,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_memory_allocator.so:system/libmorpho_memory_allocator.so \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/htc/hima-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/htc/hima-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib64/libHtcVteEngine.so:system/lib64/libHtcVteEngine.so \
     vendor/htc/hima-common/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/hima-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib64/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+    vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/hima-common/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
+    vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hima-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/htc/hima-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
