@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/hima-common/proprietary/bin/tpd_daemon:system/bin/tpd_daemon \
     vendor/htc/hima-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+    vendor/htc/hima-common/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/hima-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
