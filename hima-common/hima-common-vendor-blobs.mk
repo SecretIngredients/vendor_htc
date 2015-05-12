@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/hima-common/proprietary/bin/tpd_daemon:system/bin/tpd_daemon \
     vendor/htc/hima-common/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
-    vendor/htc/hima-common/proprietary/etc/calibration:system/etc/calibration \
     vendor/htc/hima-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -58,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/hima-common/proprietary/etc/cir.img:system/etc/cir.img \
-    vendor/htc/hima-common/proprietary/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd:system/etc/firmware/BCM4356A2_001.003.015.0050.0137.hcd \
     vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
@@ -91,8 +89,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
     vendor/htc/hima-common/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
-    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356.bin:system/etc/firmware/fw_bcm4356.bin \
-    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcm4356_apsta.bin:system/etc/firmware/fw_bcm4356_apsta.bin \
+    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/htc/hima-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b00:system/etc/firmware/htc_drmprov.b00 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b01:system/etc/firmware/htc_drmprov.b01 \
     vendor/htc/hima-common/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
@@ -220,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/htc/hima-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hima-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
+    vendor/htc/hima-common/proprietary/vendor/firmware/bcm4356A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
     vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
