@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/htc/hima-common/proprietary/bin/cand:system/bin/cand \
     vendor/htc/hima-common/proprietary/bin/cir_fw_update:system/bin/cir_fw_update \
+    vendor/htc/hima-common/proprietary/bin/downloadsensorhub:system/bin/downloadsensorhub \
     vendor/htc/hima-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/hima-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/htc/hima-common/proprietary/bin/hrdump:system/bin/hrdump \
@@ -193,6 +194,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/hima-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/htc/hima-common/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
+    vendor/htc/hima-common/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
+    vendor/htc/hima-common/proprietary/lib/libhtcmfg.so:system/lib/libhtcmfg.so \
     vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
     vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -211,6 +214,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/hima-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib64/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+    vendor/htc/hima-common/proprietary/lib64/libhtc_sensorhub.so:system/lib64/libhtc_sensorhub.so \
+    vendor/htc/hima-common/proprietary/lib64/libhtcmfg.so:system/lib64/libhtcmfg.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/hima-common/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
     vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
