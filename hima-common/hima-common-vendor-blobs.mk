@@ -205,7 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_image_transform.so:system/lib/libmorpho_image_transform.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
-    vendor/htc/hima-common/proprietary/lib/libmorpho_memory_allocator.so:system/libmorpho_memory_allocator.so \
+    vendor/htc/hima-common/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hima-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/htc/hima-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
