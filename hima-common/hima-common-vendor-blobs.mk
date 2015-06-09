@@ -184,6 +184,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
     vendor/htc/hima-common/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
+    vendor/htc/hima-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib/hw/sensors.msm8994.so:system/lib/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/hima-common/proprietary/lib/libFaceRetrieve.so:system/lib/libFaceRetrieve.so \
@@ -193,10 +194,15 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/hima-common/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/hima-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/htc/hima-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/htc/hima-common/proprietary/lib/libhtc_rilhook.so:system/lib/libhtc_rilhook.so \
     vendor/htc/hima-common/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
     vendor/htc/hima-common/proprietary/lib/libhtcmfg.so:system/lib/libhtcmfg.so \
     vendor/htc/hima-common/proprietary/lib/libhtcsecure.so:system/lib/libhtcsecure.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/htc/hima-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -209,15 +215,21 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/hima-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/htc/hima-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/htc/hima-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib64/libHtcVteEngine.so:system/lib64/libHtcVteEngine.so \
     vendor/htc/hima-common/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/hima-common/proprietary/lib64/libc2dcolorconvertgpu.so:system/lib64/libc2dcolorconvertgpu.so \
     vendor/htc/hima-common/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
+    vendor/htc/hima-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_sensorhub.so:system/lib64/libhtc_sensorhub.so \
     vendor/htc/hima-common/proprietary/lib64/libhtcmfg.so:system/lib64/libhtcmfg.so \
     vendor/htc/hima-common/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/hima-common/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
+    vendor/htc/hima-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/htc/hima-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/htc/hima-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/htc/hima-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/hima-common/proprietary/priv-app/EasyAccessService/EasyAccessService.apk:system/priv-app/EasyAccessService/EasyAccessService.apk \
