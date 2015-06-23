@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libTimeService \
     libtime_genoff \
-    libFlacSwDec
+    libFlacSwDec \
+    libEGL_adreno
 
 $(call inherit-product, vendor/htc/hima-common/hima-common-vendor-blobs.mk)
