@@ -232,8 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/hima-common/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/htc/hima-common/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/htc/hima-common/proprietary/priv-app/EasyAccessService/EasyAccessService.apk:system/priv-app/EasyAccessService/EasyAccessService.apk \
-    vendor/htc/hima-common/proprietary/priv-app/HTC_CIR/HTC_CIR.apk:system/priv-app/HTC_CIR/HTC_CIR.apk \
     vendor/htc/hima-common/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/htc/hima-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hima-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \

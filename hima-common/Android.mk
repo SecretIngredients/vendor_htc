@@ -39,6 +39,26 @@ LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := HTC_CIR
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES := proprietary/priv-app/HTC_CIR/HTC_CIR.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := EasyAccessService
+LOCAL_MODULE_OWNER := htc
+LOCAL_SRC_FILES := proprietary/priv-app/EasyAccessService/EasyAccessService.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := htc
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk

@@ -21,6 +21,8 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff \
     libFlacSwDec \
-    libEGL_adreno
+    libEGL_adreno \
+    EasyAccessService \
+    HTC_CIR
 
 $(call inherit-product, vendor/htc/hima-common/hima-common-vendor-blobs.mk)
