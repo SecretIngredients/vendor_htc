@@ -236,11 +236,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hima-common/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/htc/hima-common/proprietary/vendor/firmware/bcm4356A2.hcd:system/vendor/firmware/bcm4354A2.hcd \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
-    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/htc/hima-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/htc/hima-common/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/htc/hima-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/htc/hima-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
