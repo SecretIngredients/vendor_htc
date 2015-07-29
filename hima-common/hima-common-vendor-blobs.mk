@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/hima-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/hima-common/proprietary/bin/memlock:system/bin/memlock \
-    vendor/htc/hima-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/htc/hima-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/hima-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/hima-common/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -186,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.drc:system/etc/tfa/voip_l.drc \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.eq:system/etc/tfa/voip_l.eq \
     vendor/htc/hima-common/proprietary/etc/tfa/voip_l.preset:system/etc/tfa/voip_l.preset \
-    vendor/htc/hima-common/proprietary/lib/hw/camera.vendor.msm8994.so:system/lib/hw/camera.vendor.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/hima-common/proprietary/lib/hw/sensors.msm8994.so:system/lib/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
@@ -207,9 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/hima-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/htc/hima-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/htc/hima-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/htc/hima-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/htc/hima-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_frame_overlay.so:system/lib/libmorpho_frame_overlay.so \
     vendor/htc/hima-common/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
